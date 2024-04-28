@@ -4,7 +4,7 @@ python scripts for identifying and cracking hashes
 # Id Hash Type
 
   # Must have Python3 installed 
-    Usage: python3 ./hashid.py 
+    Usage: python3 ./hashsearch.py 
   # Script Will prompt you to Inter a hash or a file containting multiple hashes
     Enter a single hash value or the path to a file containing hashes: 
 
