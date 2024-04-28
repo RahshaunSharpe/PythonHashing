@@ -47,8 +47,7 @@ def identify_hashes_from_file(file_path):
         for line in file:
             hash_value = line.strip()
             hash_type, info = identify_hash(hash_value)
-            # print(f"{hash_value}: {hash_type} ({info})")
-            #print_colored(f"{hash_type}: ", "green")  # Print hash value in green
+            
             if hash_type != "Unknown":
                     # Print hash value and hash type in one line, with hash type in green
                 print(f"{hash_value}: {hash_type} ({info})", end=" ")
@@ -81,9 +80,7 @@ def main():
         identify_hashes_from_file(user_input)
     else:
         hash_type, info = identify_hash(user_input)
-        # print_colored(f"{user_input}: ", "green")  # Print hash value in green
-        # print(f"{user_input}: {hash_type} ({info})")
-        # print(f"{user_input}: {hash_type} ({info})" if hash_type != "Unknown" else f"{user_input}: {info}")
+      
         if hash_type != "Unknown":
                 # Print hash value and hash type in one line, with hash type in green
             print(f"{user_input}: {hash_type} ({info})", end=" ")
