@@ -5,7 +5,7 @@ python scripts for identifying and cracking hashes
 
   # Must have Python3 installed 
     Usage: python3 ./hashsearch.py 
-  # Script Will prompt you to Inter a hash or a file containting multiple hashes
+  # Script Will prompt you to Enter a hash or a file containting multiple hashes
     Enter a single hash value or the path to a file containing hashes: 
 
   # If file is in current local directory then you can just call file such as:
